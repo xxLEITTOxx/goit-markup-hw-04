@@ -1,11 +1,65 @@
 body {
-    font-family: "Roboto", serif;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-style: normal;       
+    font-style: normal;    
+    background-color: #fff;
 }
-.company-title {
+.company-title-web {
     font-family: "Raleway", serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
+                    font-size: 18px;
+            line-height: 1.16667;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #4d5ae5;
+            margin-right: 0;
+            text-decoration: none;
 }
+
+.company-title-studio {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+        margin-left: 0;
+        text-decoration: none;
+}
+.nav-menu a {
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    text-decoration: none;
+
+}
+
+
+.address-top a {
+    font-style:normal;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+        text-decoration: none;
+}
+
+.body-header {
+background: #fff;
+}
+main-page-title {
+    background-color: #2e2f42;
+
+}
+
+
+
+body ul {
+    list-style-type: none;
+    }
