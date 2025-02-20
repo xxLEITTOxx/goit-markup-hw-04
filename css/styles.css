@@ -3,9 +3,10 @@ body {
     font-optical-sizing: auto;
     font-style: normal;    
     background-color: #fff;
+    color: #434455;
 }
-.company-title-web {
-    font-family: "Raleway", serif;
+.company-title {
+    font-family: "Raleway", sans-serif;
         font-optical-sizing: auto;
         font-weight: 700;
         font-style: normal;
@@ -16,6 +17,7 @@ body {
             color: #4d5ae5;
             margin-right: 0;
             text-decoration: none;
+            line-height: 1.17;
 }
 
 .company-title-studio {
@@ -39,7 +41,9 @@ font-weight: 500;
 
 }
 
+.nav-menu-studio:hover, .nav-menu-studio:focus { color: #404bbf;}
 
+address {font-style: normal;}
 .address-top a {
     font-style:normal;
     font-weight: 400;
@@ -49,14 +53,84 @@ font-weight: 500;
         color: #434455;
         text-decoration: none;
 }
+.address-top-requierement:hover,
+.address-top-requierement:active {color: #404bbf;}
 
 .body-header {
 background: #fff;
 }
-main-page-title {
+.main-page-title {
     background-color: #2e2f42;
 
 }
+
+.main-section-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+.button-order-service {
+    background-color: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button-order-service:hover, .button-order-service:focus {background-color: #404BBF}
+
+.advantages-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+.advantages-text {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
+}
+.section-team {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+
+}
+
+.team-member {
+    background-color: #FFFFFF;
+
+}
+.team-member-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+
+}
+.team-member-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    
+}
+
 
 
 

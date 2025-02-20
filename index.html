@@ -8,30 +8,43 @@
       href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css"
     />
     <title>Web Studio</title>
-    <link rel="stylesheet" href="css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
     <header class="body-header">
       <nav>
         <!-- span-->
-        <a href="./index.html" class="company-title-web">Web</a>
-        <a href="./index.html" class="company-title-studio">Studio</a>
+        <a href="./index.html" class="company-title"
+          >Web<span class="company-title-studio">Studio</span></a
+        >
+
         <ul class="nav-menu">
-          <li><a href="" target="_blank">Studio</a></li>
+          <li>
+            <a href="./index.html" target="_blank" class="nav-menu-studio"
+              >Studio</a
+            >
+          </li>
           <li><a href="" target="_blank">Portfolio</a></li>
           <li><a href="" target="_blank">Contacts</a></li>
         </ul>
       </nav>
       <address class="address-top">
         <ul class="address-list">
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li>
+            <a
+              href="mailto:info@devstudio.com"
+              class="address-task-requierement"
+              >info@devstudio.com</a
+            >
+          </li>
           <li><a href="tel:+110001111111">+11 (000) 111-11-11</a></li>
         </ul>
       </address>
@@ -39,15 +52,19 @@
 
     <main>
       <section class="main-page-title">
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+        <h1 class="main-section-title">
+          Effective Solutions for Your Business
+        </h1>
+        <button type="button" class="button-order-service">
+          Order Service
+        </button>
       </section>
       <section>
         <h2>____________</h2>
         <ul class="advantages-list">
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="advantages-title">Strategy</h3>
+            <p class="advantages-text">
               Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
@@ -75,14 +92,14 @@
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Our Team</h2>
+      <section class="section-team">
+        <h2 class="team-title">Our Team</h2>
 
         <ul class="team-list">
-          <li>
+          <li class="team-member">
             <img src="./images/img-3.jpg" alt="Mark Guerrero" width="264" />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
+            <h3 class="team-member-title">Mark Guerrero</h3>
+            <p class="team-member-text">Product Designer</p>
           </li>
           <li>
             <img src="./images/img-2.jpg" alt="Tom Ford" width="264" />
