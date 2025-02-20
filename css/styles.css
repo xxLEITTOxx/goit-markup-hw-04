@@ -41,7 +41,8 @@ font-weight: 500;
 
 }
 
-.nav-menu-studio:hover, .nav-menu-studio:focus { color: #404bbf;}
+.nav-menu-studio:hover { color: #404bbf;} 
+.nav-menu-studio:focus { color: #404bbf;}
 
 address {font-style: normal;}
 .address-top a {
@@ -53,7 +54,7 @@ address {font-style: normal;}
         color: #434455;
         text-decoration: none;
 }
-.address-task-requierement:hover,.address-task-requierement:active {color: #404bbf;}
+.address-task-requierement:hover, .address-task-requierement:active, .address-task-requierement:focus {color: #404bbf;}
 
 .body-header {
 background: #fff;
