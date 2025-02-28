@@ -140,7 +140,6 @@ padding: 0 15px;
     padding: 120px 0;
 }
 .visually-hidden {
-    display: none;
     position: absolute;
         width: 1px;
         height: 1px;
