@@ -127,11 +127,12 @@ padding: 0 15px;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    /*display: block; */
+    display: block; 
     min-width: 169px;
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 }
 .button-order-service:hover, .button-order-service:focus {background-color: #404BBF}
 
@@ -140,6 +141,16 @@ padding: 0 15px;
 }
 .visually-hidden {
     display: none;
+    position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset (100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
 }
 
 .advantages-list {
