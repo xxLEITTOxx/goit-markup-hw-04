@@ -19,6 +19,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 .flex {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .company-title {
     font-family: "Raleway", sans-serif;
@@ -36,7 +38,8 @@ h1,h2,h3,h4,h5,h6 {
         margin-right: 76px;
         display: inline-block;
         margin-bottom: 16px;
-
+        margin-top: 16px;
+        
 }
 
 .company-title-studio {
@@ -47,6 +50,7 @@ h1,h2,h3,h4,h5,h6 {
 .nav-menu {
     display: flex;
     gap: 40px;
+    margin-right: 76px;
 }
 
 .nav-menu a {
@@ -100,11 +104,9 @@ padding: 0 15px;
 .main-page-title {
     background-color: #2e2f42;
     padding: 188px 0;
+    text-align: center;
+}
 
-}
-#main-title-container {
-    display: block;
-}
 
 .main-section-title {
     font-size: 56px;
@@ -124,7 +126,7 @@ padding: 0 15px;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
-    display: block;
+    /*display: block; */
     min-width: 169px;
     height: 56px;
     border: none;
@@ -278,8 +280,18 @@ border-top: none;
 padding: 100px 0;
 }
 
-.company-title
 .footer-text {
+    color: #f4f4fd;
+    max-width: 264px;
+
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+       
+}
+
+.company-title .footer-text {
     line-height: 1.5;
     color: #F4F4FD;
     letter-spacing: 0.02em;
