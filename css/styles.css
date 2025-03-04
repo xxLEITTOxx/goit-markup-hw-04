@@ -41,6 +41,7 @@ p {
         line-height: 1.17;
         margin-right: 76px;
         display: inline-block;
+        position: relative;
 }
 
 .company-title-studio {
@@ -93,6 +94,10 @@ border-bottom: 1px solid #e7e9fc;
 .body-header a {
     display: block;
     padding: 24px 0;
+    box-shadow:
+    0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container {
 justify-content: space-between;
@@ -110,6 +115,8 @@ padding: 0 15px;
     background-color: #2e2f42;
     padding: 188px 0;
     text-align: center;
+    background-image: url("../images/people-office 1.jpg");
+    background-size: cover;
 }
 
 
