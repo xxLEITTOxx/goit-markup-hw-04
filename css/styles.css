@@ -478,7 +478,7 @@ img {
   overflow: hidden;
 }
 
-.overlay {
+.overlay-text {
   position: absolute;
   top: 0;
   left: 0;
@@ -491,7 +491,7 @@ img {
   padding: 40px 32px 0px 32px;
 }
 
-.box:hover .overlay {
+.box:hover .overlay-text {
   transform: translateY(0%);
 }
 
