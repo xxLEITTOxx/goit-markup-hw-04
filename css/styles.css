@@ -500,10 +500,13 @@ img {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.box:hover .overlay-text {
+/* .box:hover .overlay-text {
+  transform: translateY(0%);
+} */
+
+.portfolio-list-item:hover .overlay-text {
   transform: translateY(0%);
 }
-
 .overlay-text {
   font-weight: 400;
   font-size: 16px;
@@ -514,4 +517,8 @@ img {
 
 .footer-block {
   margin-right: 120px;
+}
+
+.soc-container {
+  margin: 0;
 }
